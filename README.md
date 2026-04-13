@@ -42,7 +42,7 @@ Focused on solving real-world problems with data-driven solutions.
 ---
 
 ## 📫 Contact
-- LinkedIn: (your link)
-- Email: (your email)
+- LinkedIn: https://www.linkedin.com/in/sivanagaraju-kodali-6a2902400/
+- Email: sivanagarajukodali21@gmail.com
 
 ⭐ Always learning and building in AI
