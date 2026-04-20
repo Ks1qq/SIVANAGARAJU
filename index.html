@@ -1,148 +1,210 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sivanagaraju Kodali | AI Engineer</title>
+<title>Sivanagaraju | Portfolio</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #0f172a;
-    color: white;
+:root {
+    --bg: #0f172a;
+    --text: #e2e8f0;
+    --card: #1e293b;
+    --accent: #38bdf8;
 }
 
-.container {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
+.light {
+    --bg: #f8fafc;
+    --text: #0f172a;
+    --card: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeIn 1s ease-in;
 }
 
 h1 {
-    font-size: 48px;
-}
-
-h2 {
-    margin-top: 50px;
-    border-bottom: 2px solid #38bdf8;
-    display: inline-block;
-}
-
-.hero {
-    text-align: center;
-    margin-top: 80px;
-}
-
-.hero p {
-    color: #94a3b8;
+    font-size: 40px;
 }
 
 .btn {
-    background: #38bdf8;
-    padding: 12px 24px;
-    color: black;
+    background: var(--accent);
+    padding: 10px 20px;
     border-radius: 8px;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 10px;
+}
+
+.skills .bar {
+    margin: 10px 0;
+}
+
+.bar span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 8px;
+    background: #334155;
+    border-radius: 5px;
+}
+
+.progress div {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 5px;
 }
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 20px;
 }
 
 .card {
-    background: #1e293b;
+    background: var(--card);
     padding: 20px;
-    border-radius: 12px;
-    transition: 0.3s;
+    border-radius: 10px;
+    transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
-.skills span {
-    background: #334155;
-    padding: 8px 12px;
-    margin: 5px;
-    display: inline-block;
-    border-radius: 6px;
+.toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
 }
 
-.footer {
+footer {
     text-align: center;
-    margin-top: 50px;
-    color: #94a3b8;
+    padding: 20px;
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
 }
 </style>
+
 </head>
 
 <body>
 
-<div class="container">
+<div class="toggle" onclick="toggleTheme()">🌙</div>
 
-    <div class="hero">
-        <h1>Hi, I'm Sivanagaraju Kodali 👋</h1>
-        <p>AI Engineer | Machine Learning | Generative AI | AWS</p>
-        <br>
-        <a href="#projects" class="btn">View My Work</a>
-    </div>
+<header>
+    <h1>Sivanagaraju Kodali</h1>
+    <p>Senior Software Developer | Java | AWS | Microservices | React</p>
+    <a class="btn" href="#">Download Resume</a>
+</header>
 
-    <h2>🧠 About Me</h2>
+<section>
+    <h2>About</h2>
     <p>
-        AI Engineer with experience building scalable machine learning and generative AI systems.
-        Skilled in Python, AWS, and deep learning, with a focus on solving real-world problems using intelligent systems.
+        8+ years of experience building scalable applications using Java, Spring Boot, AWS, and React.
+        Passionate about microservices, cloud architecture, and high-performance systems.
     </p>
+</section>
 
-   <h2>💼 Experience</h2>
-
-<div class="card">
-    <h3>Data Scientist – Amira Learning</h3>
-    <p><i>Mar 2024 – Present | Remote, USA</i></p>
-    <ul>
-        <li>Built AI-powered systems enabling real-time voice-based learning</li>
-        <li>Developed scalable ML pipelines on AWS (S3, EC2)</li>
-        <li>Implemented NLP & LLM-based solutions</li>
-        <li>Optimized data workflows for better performance</li>
-    </ul>
-</div>
-
-<br>
-
-<div class="card">
-    <h3>Artificial Intelligence Engineer – Skechers</h3>
-    <p><i>Oct 2021 – Apr 2023 | India</i></p>
-    <ul>
-        <li>Developed ML & deep learning solutions for fashion applications</li>
-        <li>Built CNN models for image classification</li>
-        <li>Applied NLP for text analysis and recommendations</li>
-        <li>Deployed AI features into production systems</li>
-    </ul>
-</div>
-
-
-    <h2>⚒️ Skills</h2>
+<section>
+    <h2>Skills</h2>
     <div class="skills">
-        <span>Python</span>
-        <span>Machine Learning</span>
-        <span>Deep Learning</span>
-        <span>Generative AI</span>
-        <span>AWS</span>
-        <span>Flask</span>
+
+```
+    <div class="bar">
+        <span>Java / Spring Boot</span>
+        <div class="progress"><div style="width:90%"></div></div>
     </div>
 
-    <h2>📫 Contact</h2>
-    <p>LinkedIn: https://www.linkedin.com/in/sivanagaraju-kodali-6a2902400/</p>
-    <p>Email: (add your email)</p>
+    <div class="bar">
+        <span>AWS / Cloud</span>
+        <div class="progress"><div style="width:85%"></div></div>
+    </div>
 
-    <div class="footer">
-        <p>© 2026 Sivanagaraju Kodali</p>
+    <div class="bar">
+        <span>ReactJS</span>
+        <div class="progress"><div style="width:80%"></div></div>
+    </div>
+
+    <div class="bar">
+        <span>Microservices</span>
+        <div class="progress"><div style="width:90%"></div></div>
     </div>
 
 </div>
+```
+
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+```
+<div class="projects">
+    <div class="card">
+        <h3>Microservices Platform</h3>
+        <p>Spring Boot + Kafka + Docker based scalable system.</p>
+    </div>
+
+    <div class="card">
+        <h3>AWS File System</h3>
+        <p>File processing using S3, Lambda, API Gateway.</p>
+    </div>
+
+    <div class="card">
+        <h3>React App</h3>
+        <p>Full stack app with React + Spring Boot.</p>
+    </div>
+</div>
+```
+
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: sivanagarajukodali21@gmail.com</p>
+    <p>LinkedIn: <a href="#">Add link</a></p>
+    <p>GitHub: <a href="#">Add link</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Sivanagaraju</p>
+</footer>
+
+<script>
+function toggleTheme() {
+    document.body.classList.toggle("light");
+}
+</script>
 
 </body>
 </html>
