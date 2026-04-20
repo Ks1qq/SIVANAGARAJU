@@ -1,48 +1,43 @@
-# 👋 Hi, I'm Sivanagaraju
+# Hi, I'm Sivanagaraju 👋
 
-🚀 AI Engineer | Python | AWS | Machine Learning  
-
-🎓 Master's in Information Systems – Cleveland State University  
+🚀 Senior Software Developer | Java | Spring Boot | AWS | React | Microservices
 
 ---
 
-## 🧠 About Me
-Passionate about building intelligent systems using AI & ML.
-Focused on solving real-world problems with data-driven solutions.
+## 👨‍💻 About Me
+
+* 8+ years of experience in building scalable enterprise applications
+* Strong expertise in Java, Spring Boot, Microservices architecture
+* Hands-on with AWS (EC2, S3, Lambda, API Gateway, EKS)
+* Experience with ReactJS, TypeScript for modern UI development
+* Built event-driven systems using Kafka
 
 ---
 
-## ⚒️ Skills
-- Python (NumPy, Pandas)
-- Machine Learning (Scikit-learn)
-- Deep Learning (TensorFlow, PyTorch)
-- AWS (S3, EC2, SageMaker)
+## 🛠️ Tech Stack
+
+**Backend:** Java, Spring Boot, Spring MVC, Hibernate, Microservices
+**Frontend:** ReactJS, TypeScript, JavaScript, HTML, CSS
+**Cloud & DevOps:** AWS, Docker, Kubernetes, Jenkins
+**Databases:** Oracle, PostgreSQL, MySQL, MongoDB
+**Messaging:** Kafka, ActiveMQ
 
 ---
 
-## 🚀 Projects
-### 1. Customer Churn Prediction
-- Predicts customer churn using ML
-- Tech: Python, Scikit-learn
-- Accuracy: XX%
+## 📌 Featured Projects
 
-### 2. House Price Prediction
-- Regression model for price prediction
-- Tech: Pandas, Linear Regression
-
-### 3. Sentiment Analysis (NLP)
-- Classifies text sentiment
-- Tech: NLP, Python
+* 🔹 Microservices E-commerce Platform
+* 🔹 AWS File Processing System
+* 🔹 Kafka Event Streaming System
+* 🔹 Full Stack React + Spring Boot App
 
 ---
 
-## 🌐 Portfolio Website
-👉 
+## 📫 Connect with Me
+
+* LinkedIn: https://www.linkedin.com/in/sivanagaraju-kodali-6a2902400/
+* Email: sivanagarajukodali21@gmail.com
 
 ---
 
-## 📫 Contact
-- LinkedIn: https://www.linkedin.com/in/sivanagaraju-kodali-6a2902400/
-- Email: sivanagarajukodali21@gmail.com
-
-⭐ Always learning and building in AI
+⭐️ Always open to learning, collaboration, and new opportunities!
